@@ -12,8 +12,6 @@ import { themeContext } from "../context";
 import { useContext } from "react";
 
 function Intro() {
-  const transition = { duration: 4, type: "spring" };
-
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
 
@@ -74,7 +72,7 @@ function Intro() {
             }}
           >
             {" "}
-            <a>
+            <a href={abraralzhrani}>
               <FaFileCode />
             </a>{" "}
             Web Devloper{" "}
@@ -89,7 +87,7 @@ function Intro() {
               color: darkMode ? "white" : "",
             }}
           >
-            <a>
+            <a href={abraralzhrani}>
               {" "}
               <FaRegHandPeace />
             </a>{" "}
