@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <div className="NavBar" id="Header">
       <div className="left-n">
-        <did className="name">Abrar</did>
+        <div className="name">Abrar</div>
         <Toggle />
       </div>
       <div className="right">
@@ -26,7 +26,7 @@ const Header = () => {
             </li>
 
             <li>
-              <Link to="Experience" spy={true} dusmooth={true}>
+              <Link to="Experience" spy={true} smooth={true}>
                 Experience
               </Link>
             </li>
